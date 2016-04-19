@@ -1,0 +1,25 @@
+// Write an expression that calculates trapezoid's area by given sides a and b and height h. 
+The three values should be read from the console in the order shown below. 
+All three value will be floating-point numbers. //
+
+using System;
+
+namespace Trapezoid
+{
+    class Trapezoid
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Please enter a value for a side: ");
+            float a = float.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter a value for b side: ");
+            float b = float.Parse(Console.ReadLine());
+            Console.WriteLine("Please specify the height of the trapezoid: ");
+            float h = float.Parse(Console.ReadLine());
+            float Sarea = (a + b) / 2;
+            {
+                Console.WriteLine("{0:0.0000000}", Sarea * h);
+            }
+        }
+    }
+}   
