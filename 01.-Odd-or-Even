@@ -1,0 +1,17 @@
+// Write a program that reads an integer from the console, uses an expression to check if given integer is odd or even, and prints 
+"even NUMBER" or "odd NUMBER", where you should print the input number's value instead of NUMBER. //
+
+using System;
+
+namespace OddOrEven
+
+{
+    class OddOrEven
+    {
+        static void Main(string[] args)
+        {
+            int n = int.Parse(Console.ReadLine());
+            Console.WriteLine(n % 2 == 0  even  + n  odd  + n);
+        }
+    }
+}
